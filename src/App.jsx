@@ -19,15 +19,6 @@ function App() {
       <div className="app">
         <nav className="navbar">
           <Link to="/" className="navbar-brand">Brawl Dashboard</Link>
-          <div>
-            <input
-              type="password"
-              placeholder="Enter Brawl Stars API Key"
-              className="api-input"
-              value={apiKey}
-              onChange={handleApiKeyChange}
-            />
-          </div>
         </nav>
 
         <main className="container">
