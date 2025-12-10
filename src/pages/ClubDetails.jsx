@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { brawlStarsApi } from '../services/brawlStarsApi';
 import {
     Chart as ChartJS,
     CategoryScale,
@@ -21,7 +20,7 @@ ChartJS.register(
     Legend
 );
 
-function ClubDetails({ apiKey }) {
+function ClubDetails() {
     const { tag } = useParams();
     const [club, setClub] = useState(null);
     const [loading, setLoading] = useState(true);
@@ -31,12 +30,26 @@ function ClubDetails({ apiKey }) {
         const fetchClub = async () => {
             setLoading(true);
             try {
-                const data = await brawlStarsApi.getClub(tag, apiKey);
-                // Sort members by trophies descending by default
-                if (data.members) {
-                    data.members.sort((a, b) => b.trophies - a.trophies);
+                // Fetch from static JSON file
+                const response = await fetch('/mon-dashboard-brawl/clubs-data.json');
+                if (!response.ok) {
+                    throw new Error('Failed to load club data');
                 }
-                setClub(data);
+                const allClubs = await response.json();
+
+                // Find the club by tag
+                const foundClub = allClubs.find(c => c.tag.replace('#', '') === tag);
+
+                if (!foundClub) {
+                    throw new Error('Club not found');
+                }
+
+                // Sort members by trophies descending
+                if (foundClub.members) {
+                    foundClub.members.sort((a, b) => b.trophies - a.trophies);
+                }
+
+                setClub(foundClub);
             } catch (err) {
                 setError(err.message);
             } finally {
@@ -44,10 +57,10 @@ function ClubDetails({ apiKey }) {
             }
         };
 
-        if (apiKey && tag) {
+        if (tag) {
             fetchClub();
         }
-    }, [apiKey, tag]);
+    }, [tag]);
 
     if (loading) return <div className="loading">Loading Club Details...</div>;
     if (error) return <div className="error">Error: {error}</div>;
