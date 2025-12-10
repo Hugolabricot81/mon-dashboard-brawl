@@ -6,13 +6,10 @@ import { CLUBS, API_KEY } from './config';
 import { brawlStarsApi } from './services/brawlStarsApi';
 
 function App() {
-  const [apiKey, setApiKey] = useState(localStorage.getItem('bs_api_key') || API_KEY || '');
+  // Force use of API_KEY from config, ignoring localStorage to prevent issues with old keys
+  const [apiKey] = useState(API_KEY);
 
-  const handleApiKeyChange = (e) => {
-    const key = e.target.value;
-    setApiKey(key);
-    localStorage.setItem('bs_api_key', key);
-  };
+
 
   return (
     <Router>

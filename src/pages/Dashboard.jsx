@@ -47,7 +47,7 @@ function Dashboard({ apiKey }) {
         }
     };
 
-    if (loading) return <div className="loading">Loading Club Data...</div>;
+    if (loading) return <div className="loading" style={{ color: 'white', marginTop: '50px' }}>Loading Club Data... (This may take a few seconds)</div>;
     if (error) return <div className="error">{error}</div>;
 
     return (
