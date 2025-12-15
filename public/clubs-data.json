@@ -3,28 +3,28 @@
     "configName": "Etoilée",
     "tag": "29UPLG8QQ",
     "error": true,
-    "errorMessage": "Failed to fetch 29UPLG8QQ: {\"reason\":\"accessDenied.invalidIp\",\"message\":\"Invalid authorization: API key does not allow access from IP 64.236.192.154\"}",
-    "fetchedAt": "2025-12-15T07:15:29.164Z"
+    "errorMessage": "Failed to fetch 29UPLG8QQ: {\"reason\":\"accessDenied.invalidIp\",\"message\":\"Invalid authorization: API key does not allow access from IP 52.154.20.203\"}",
+    "fetchedAt": "2025-12-15T08:16:20.048Z"
   },
   {
     "configName": "Fleurie",
     "tag": "2C9Y28JPP",
     "error": true,
-    "errorMessage": "Failed to fetch 2C9Y28JPP: {\"reason\":\"accessDenied.invalidIp\",\"message\":\"Invalid authorization: API key does not allow access from IP 64.236.192.154\"}",
-    "fetchedAt": "2025-12-15T07:15:29.222Z"
+    "errorMessage": "Failed to fetch 2C9Y28JPP: {\"reason\":\"accessDenied.invalidIp\",\"message\":\"Invalid authorization: API key does not allow access from IP 52.154.20.203\"}",
+    "fetchedAt": "2025-12-15T08:16:20.098Z"
   },
   {
     "configName": "Celeste",
     "tag": "2JUVYQ0YV",
     "error": true,
-    "errorMessage": "Failed to fetch 2JUVYQ0YV: {\"reason\":\"accessDenied.invalidIp\",\"message\":\"Invalid authorization: API key does not allow access from IP 64.236.192.154\"}",
-    "fetchedAt": "2025-12-15T07:15:29.280Z"
+    "errorMessage": "Failed to fetch 2JUVYQ0YV: {\"reason\":\"accessDenied.invalidIp\",\"message\":\"Invalid authorization: API key does not allow access from IP 52.154.20.203\"}",
+    "fetchedAt": "2025-12-15T08:16:20.148Z"
   },
   {
     "configName": "Gelée",
     "tag": "2CJJLLUQ9",
     "error": true,
-    "errorMessage": "Failed to fetch 2CJJLLUQ9: {\"reason\":\"accessDenied.invalidIp\",\"message\":\"Invalid authorization: API key does not allow access from IP 64.236.192.154\"}",
-    "fetchedAt": "2025-12-15T07:15:29.337Z"
+    "errorMessage": "Failed to fetch 2CJJLLUQ9: {\"reason\":\"accessDenied.invalidIp\",\"message\":\"Invalid authorization: API key does not allow access from IP 52.154.20.203\"}",
+    "fetchedAt": "2025-12-15T08:16:20.199Z"
   }
 ]
