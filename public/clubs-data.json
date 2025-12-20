@@ -3,28 +3,28 @@
     "configName": "Etoilée",
     "tag": "29UPLG8QQ",
     "error": true,
-    "errorMessage": "Failed to fetch 29UPLG8QQ: {\"reason\":\"accessDenied.invalidIp\",\"message\":\"Invalid authorization: API key does not allow access from IP 64.236.140.178\"}",
-    "fetchedAt": "2025-12-20T15:08:18.847Z"
+    "errorMessage": "Failed to fetch 29UPLG8QQ: {\"reason\":\"accessDenied.invalidIp\",\"message\":\"Invalid authorization: API key does not allow access from IP 52.159.246.8\"}",
+    "fetchedAt": "2025-12-20T16:10:20.863Z"
   },
   {
     "configName": "Fleurie",
     "tag": "2C9Y28JPP",
     "error": true,
-    "errorMessage": "Failed to fetch 2C9Y28JPP: {\"reason\":\"accessDenied.invalidIp\",\"message\":\"Invalid authorization: API key does not allow access from IP 64.236.140.178\"}",
-    "fetchedAt": "2025-12-20T15:08:18.906Z"
+    "errorMessage": "Failed to fetch 2C9Y28JPP: {\"reason\":\"accessDenied.invalidIp\",\"message\":\"Invalid authorization: API key does not allow access from IP 52.159.246.8\"}",
+    "fetchedAt": "2025-12-20T16:10:20.890Z"
   },
   {
     "configName": "Celeste",
     "tag": "2JUVYQ0YV",
     "error": true,
-    "errorMessage": "Failed to fetch 2JUVYQ0YV: {\"reason\":\"accessDenied.invalidIp\",\"message\":\"Invalid authorization: API key does not allow access from IP 64.236.140.178\"}",
-    "fetchedAt": "2025-12-20T15:08:18.974Z"
+    "errorMessage": "Failed to fetch 2JUVYQ0YV: {\"reason\":\"accessDenied.invalidIp\",\"message\":\"Invalid authorization: API key does not allow access from IP 52.159.246.8\"}",
+    "fetchedAt": "2025-12-20T16:10:20.915Z"
   },
   {
     "configName": "Gelée",
     "tag": "2CJJLLUQ9",
     "error": true,
-    "errorMessage": "Failed to fetch 2CJJLLUQ9: {\"reason\":\"accessDenied.invalidIp\",\"message\":\"Invalid authorization: API key does not allow access from IP 64.236.140.178\"}",
-    "fetchedAt": "2025-12-20T15:08:19.033Z"
+    "errorMessage": "Failed to fetch 2CJJLLUQ9: {\"reason\":\"accessDenied.invalidIp\",\"message\":\"Invalid authorization: API key does not allow access from IP 52.159.246.8\"}",
+    "fetchedAt": "2025-12-20T16:10:20.941Z"
   }
 ]
