@@ -3,28 +3,28 @@
     "configName": "Etoilée",
     "tag": "29UPLG8QQ",
     "error": true,
-    "errorMessage": "Failed to fetch 29UPLG8QQ: {\"reason\":\"accessDenied.invalidIp\",\"message\":\"Invalid authorization: API key does not allow access from IP 68.220.61.12\"}",
-    "fetchedAt": "2026-06-25T22:12:56.400Z"
+    "errorMessage": "Failed to fetch 29UPLG8QQ: {\"message\": \"API at maximum capacity, request throttled.\"}",
+    "fetchedAt": "2026-06-26T00:01:31.136Z"
   },
   {
     "configName": "Fleurie",
     "tag": "2C9Y28JPP",
     "error": true,
-    "errorMessage": "Failed to fetch 2C9Y28JPP: {\"reason\":\"accessDenied.invalidIp\",\"message\":\"Invalid authorization: API key does not allow access from IP 68.220.61.12\"}",
-    "fetchedAt": "2026-06-25T22:12:56.423Z"
+    "errorMessage": "Failed to fetch 2C9Y28JPP: {\"message\": \"API at maximum capacity, request throttled.\"}",
+    "fetchedAt": "2026-06-26T00:01:31.220Z"
   },
   {
     "configName": "Celeste",
     "tag": "2JUVYQ0YV",
     "error": true,
-    "errorMessage": "Failed to fetch 2JUVYQ0YV: {\"reason\":\"accessDenied.invalidIp\",\"message\":\"Invalid authorization: API key does not allow access from IP 68.220.61.12\"}",
-    "fetchedAt": "2026-06-25T22:12:56.446Z"
+    "errorMessage": "Failed to fetch 2JUVYQ0YV: {\"message\": \"API at maximum capacity, request throttled.\"}",
+    "fetchedAt": "2026-06-26T00:01:31.302Z"
   },
   {
     "configName": "Gelée",
     "tag": "2CJJLLUQ9",
     "error": true,
-    "errorMessage": "Failed to fetch 2CJJLLUQ9: {\"reason\":\"accessDenied.invalidIp\",\"message\":\"Invalid authorization: API key does not allow access from IP 68.220.61.12\"}",
-    "fetchedAt": "2026-06-25T22:12:56.470Z"
+    "errorMessage": "Failed to fetch 2CJJLLUQ9: {\"reason\":\"accessDenied.invalidIp\",\"message\":\"Invalid authorization: API key does not allow access from IP 74.249.78.161\"}",
+    "fetchedAt": "2026-06-26T00:01:31.454Z"
   }
 ]
