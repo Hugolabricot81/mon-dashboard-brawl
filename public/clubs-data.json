@@ -3,28 +3,28 @@
     "configName": "Etoilée",
     "tag": "29UPLG8QQ",
     "error": true,
-    "errorMessage": "Failed to fetch 29UPLG8QQ: {\"reason\":\"accessDenied.invalidIp\",\"message\":\"Invalid authorization: API key does not allow access from IP 172.203.253.163\"}",
-    "fetchedAt": "2026-06-27T22:49:27.165Z"
+    "errorMessage": "request to https://api.brawlstars.com/v1/clubs/%2329UPLG8QQ failed, reason: ",
+    "fetchedAt": "2026-06-27T23:51:51.800Z"
   },
   {
     "configName": "Fleurie",
     "tag": "2C9Y28JPP",
     "error": true,
-    "errorMessage": "Failed to fetch 2C9Y28JPP: {\"reason\":\"accessDenied.invalidIp\",\"message\":\"Invalid authorization: API key does not allow access from IP 172.203.253.163\"}",
-    "fetchedAt": "2026-06-27T22:49:27.251Z"
+    "errorMessage": "request to https://api.brawlstars.com/v1/clubs/%232C9Y28JPP failed, reason: ",
+    "fetchedAt": "2026-06-27T23:54:06.967Z"
   },
   {
     "configName": "Celeste",
     "tag": "2JUVYQ0YV",
     "error": true,
-    "errorMessage": "Failed to fetch 2JUVYQ0YV: {\"reason\":\"accessDenied.invalidIp\",\"message\":\"Invalid authorization: API key does not allow access from IP 172.203.253.163\"}",
-    "fetchedAt": "2026-06-27T22:49:27.338Z"
+    "errorMessage": "request to https://api.brawlstars.com/v1/clubs/%232JUVYQ0YV failed, reason: ",
+    "fetchedAt": "2026-06-27T23:56:22.135Z"
   },
   {
     "configName": "Gelée",
     "tag": "2CJJLLUQ9",
     "error": true,
-    "errorMessage": "Failed to fetch 2CJJLLUQ9: {\"reason\":\"accessDenied.invalidIp\",\"message\":\"Invalid authorization: API key does not allow access from IP 172.203.253.163\"}",
-    "fetchedAt": "2026-06-27T22:49:27.424Z"
+    "errorMessage": "request to https://api.brawlstars.com/v1/clubs/%232CJJLLUQ9 failed, reason: ",
+    "fetchedAt": "2026-06-27T23:58:37.303Z"
   }
 ]
